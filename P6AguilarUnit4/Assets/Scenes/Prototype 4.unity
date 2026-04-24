@@ -148,7 +148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb3193ca52de774db71d9b2822727ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1619310687927852361, guid: 8c616182c34bf2c4b84e848903f57c64, type: 3}
+  enemyPrefabs:
+  - {fileID: 1619310687927852361, guid: 8c616182c34bf2c4b84e848903f57c64, type: 3}
+  - {fileID: 1619310687927852361, guid: a399ccdbd168d2045bf2f27763a5689e, type: 3}
   powerupPrefab: {fileID: 3178459565873648838, guid: a35346f51aa47d64ab05a8623d0b7612, type: 3}
   enemyCount: 1
   waveNumber: 1
@@ -777,6 +779,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23564663788724664, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cc92c5832ed06c240aff7fd6d7fcd731, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
