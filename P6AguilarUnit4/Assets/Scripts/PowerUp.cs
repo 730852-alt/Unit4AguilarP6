@@ -1,7 +1,7 @@
 using NUnit.Framework.Constraints;
 using UnityEngine;
 
-public enum PowerUpType { None, Pushback, Rockets }
+public enum PowerUpType { None, Pushback, Rockets, Smash }
 
 
 
